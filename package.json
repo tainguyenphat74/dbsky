@@ -4,8 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "prepare": "./prepare.sh",
-    "check": "./check.sh",
+    "prepare": "bash prepare.sh",
+    "check": "bash check.sh",
     "format": "prettier -w .",
     "build": "next build",
     "dev": "next dev -p 56078",
